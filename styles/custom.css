@@ -1,0 +1,47 @@
+/* Arctic-inspired theme */
+.stApp {
+    background-color: #FFFFFF;
+}
+
+.stButton>button {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.stButton>button:hover {
+    background-color: #1976D2;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #1976D2;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+/* Cards and containers */
+[data-testid="stVerticalBlock"] {
+    background-color: #E3F2FD;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background-color: #E3F2FD;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+/* Alerts and messages */
+.stAlert {
+    border-radius: 4px;
+}
