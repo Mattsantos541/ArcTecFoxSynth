@@ -54,7 +54,7 @@ task = "packager.installForAll"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "uvicorn app:app --host 0.0.0.0 --port 8000"
+args = "python server.py"
 waitForPort = 8000
 
 [[workflows.workflow]]
