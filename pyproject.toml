@@ -16,6 +16,7 @@ dependencies = [
     "python-jose[cryptography]>=3.3.0",
     "python-multipart>=0.0.20",
     "sdv>=1.17.3",
+    "sqlalchemy>=2.0.36",
     "streamlit>=1.41.1",
     "twilio>=9.4.1",
     "uvicorn>=0.34.0",
