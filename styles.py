@@ -111,16 +111,16 @@ def apply_custom_styles():
 
                 const startX = Math.random() * 300;
                 const startY = Math.random() * 300;
-                particle.style.left = `${startX}px`;
-                particle.style.top = `${startY}px`;
+                particle.style.left = startX + 'px';
+                particle.style.top = startY + 'px';
 
                 const tx = (Math.random() - 0.5) * 400;
                 const ty = (Math.random() - 0.5) * 400;
-                particle.style.setProperty('--tx', `${tx}px`);
-                particle.style.setProperty('--ty', `${ty}px`);
+                particle.style.setProperty('--tx', tx + 'px');
+                particle.style.setProperty('--ty', ty + 'px');
 
                 const duration = Math.random() * 2 + 2;
-                particle.style.animation = `particle-animation ${duration}s linear`;
+                particle.style.animation = 'particle-animation ' + duration + 's linear';
 
                 container.appendChild(particle);
                 setTimeout(() => particle.remove(), duration * 1000);
