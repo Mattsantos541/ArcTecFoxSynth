@@ -1,0 +1,17 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 5000
+
+[theme]
+primaryColor = "#1E3D59"
+backgroundColor = "#F0F4F8"
+secondaryBackgroundColor = "#75B9BE"
+textColor = "#2C3E50"
+font = "sans serif"
+
+[runner]
+fastReruns = true
+
+[logger]
+level = "info"
