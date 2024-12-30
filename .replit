@@ -1,0 +1,4 @@
+run = "pip install -r backend/requirements.txt"
+
+[deployment]
+run = ["sh", "-c", "pip install -r backend/requirements.txt"]
