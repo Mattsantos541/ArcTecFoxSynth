@@ -1,0 +1,18 @@
+[project]
+name = "arctecfoxsynth"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi-users-db-sqlalchemy==6.0.1",
+    "fastapi==0.115.6",
+    "uvicorn==0.32.1",
+    "passlib==1.7.4",
+    "email-validator==2.2.0",
+    "sqlalchemy==2.0.36",
+    "databases==0.9.0",
+    "sqlit>=0.1.6",
+    "python-dotenv==1.0.1",
+    "pytest==8.3.4",
+    "httpx==0.28.1",
+]
