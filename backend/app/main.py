@@ -14,4 +14,4 @@ app.add_middleware(
 )
 
 # Serve static files (landing page)
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+app.mount("/", StaticFiles(directory="../static", html=True), name="static")
