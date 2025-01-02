@@ -1,4 +1,4 @@
-
+from pydantic_settings import BaseSettings
 from .settings import Settings
 
 class ProdSettings(Settings):
