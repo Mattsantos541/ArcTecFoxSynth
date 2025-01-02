@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7fafc; /* Light gray */
+    color: #1a202c; /* Dark blue */
+}
+
+/* Header */
+header {
+    background: #1a202c; /* Dark blue */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header .logo {
+    max-width: 150px; /* Logo size */
+    margin-bottom: 20px;
+}
+
+header .cta-button {
+    background: #3182ce; /* Light blue */
+    color: #ffffff; /* White */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button */
+}
+
+header .cta-button:hover {
+    background: #63b3ed; /* Lighter blue on hover */
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background-color: #ffffff; /* White sections */
+    border-bottom: 1px solid #e2e8f0; /* Light gray border */
+}
+
+h2 {
+    text-align: center;
+    color: #1a202c; /* Dark blue */
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature, .use-case, .pricing-plan {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #f7fafc; /* Light gray */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+footer {
+    text-align: center;
+    background: #1a202c; /* Dark blue */
+    color: #ffffff; /* White */
+    padding: 10px;
+}
+
+.footer-links a {
+    color: #3182ce; /* Light blue */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #63b3ed; /* Lighter blue */
+}
