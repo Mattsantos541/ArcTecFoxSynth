@@ -1,5 +1,9 @@
-run = "pip install -r backend/requirements.txt"
+run = "cd backend && uvicorn app.main:app --host 0.0.0.0 --port 3000"
 modules = ["python-3.11"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
 
 [deployment]
 run = ["sh", "-c", "pip install -r backend/requirements.txt"]
