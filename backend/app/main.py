@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from config import settings
+import os
 
 app = FastAPI(title=settings.APP_NAME, debug=settings.DEBUG)
 
