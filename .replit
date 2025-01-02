@@ -1,8 +1,9 @@
-run = "cd backend && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+run = "cd backend && uvicorn app.main:app --host 0.0.0.0 --port 3000 --reload"
 modules = ["python-3.11"]
 
 [[ports]]
-localPort = 8000
+localPort = 3000
 externalPort = 80
 
 [deployment]
