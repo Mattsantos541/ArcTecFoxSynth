@@ -1,0 +1,125 @@
+Please redesign the ArcTecFox landing page to follow the structure and design outlined below. The page should be inspired by WeTransfer’s minimalistic and visually engaging style while tailored to ArcTecFox’s branding and offerings. Use the uploaded design flow as a reference to ensure consistency. Here’s the detailed structure:
+
+1. **Hero Section:**
+   - **Visuals:**
+     - Full-screen gradient or abstract animation inspired by the ArcTecFox logo.
+     - Optional small looping animation or static illustration of the ArcTecFox dashboard.
+   - **Content:**
+     - Headline: “Synthetic Data, Simplified.”
+     - Subheadline: “Effortlessly transform limited datasets into powerful insights with privacy-first synthetic data generation.”
+     - CTA Button: “Generate Data” or “Get Started.”
+
+2. **Problem Statement Section:**
+   - **Visuals:**
+     - Minimal animation showing fragmented data converting into structured synthetic data.
+   - **Content:**
+     - Headline: “Facing Data Scarcity?”
+     - Subheadline: “Unlock your business’s potential with synthetic data that ensures privacy and innovation.”
+     - CTA: “See How It Works” (smooth scroll to the next section).
+
+3. **Features Carousel or Stacked Features Section:**
+   - **Visuals:**
+     - Icons or minimalist diagrams to complement the text.
+   - **Content:**
+     - Headline: “Built for Simplicity, Powered by Innovation.”
+     - Feature Highlights:
+       1. Privacy-Preserving Tech: “Generate data with peace of mind.”
+       2. Customizable Outputs: “Configure datasets to meet your needs.”
+       3. Rich Scorecards: “Compare and validate results effortlessly.”
+       4. Multi-Format Support: “Export data in XLSX, CSV, or JSON.”
+
+4. **Interactive Demo Section:**
+   - **Visuals:**
+     - Embed a GIF or animated video showing:
+       - Uploading a dataset.
+       - Configuring synthetic data options.
+       - Visualizing Scorecard metrics.
+   - **Content:**
+     - Headline: “Experience ArcTecFox in Action.”
+     - CTA: “Try a Free Demo.”
+
+5. **Social Proof Section:**
+   - **Visuals:**
+     - Use logos, quote cards, or bold statistics.
+   - **Content:**
+     - Headline: “Trusted by Businesses That Innovate.”
+     - Example statistic: “95% of users reported increased data efficiency with ArcTecFox.”
+
+6. **Benefits Section:**
+   - **Visuals:**
+     - Split sections with one side for text and the other for visuals (e.g., raw vs. synthetic data comparison).
+   - **Content:**
+     - Headline: “Why ArcTecFox?”
+     - Benefits:
+       - Scale data capabilities instantly.
+       - Ensure privacy compliance by design.
+       - Save time and resources on data acquisition.
+
+7. **Pricing Section:**
+   - **Visuals:**
+     - Minimal design with pricing cards.
+   - **Content:**
+     - Headline: “Pricing That Grows With You.”
+     - Example tiers: Free, Pro, Enterprise.
+     - Highlight the most popular plan.
+     - CTA: “Choose Your Plan.”
+
+8. **FAQ Section:**
+   - **Visuals:**
+     - Simple accordion-style FAQs.
+   - **Content:**
+     - Cover typical questions about synthetic data, privacy, and compatibility.
+
+9. **Final CTA Section:**
+   - **Content:**
+     - Headline: “Ready to Build Smarter with Synthetic Data?”
+     - Subheadline: “Sign up today and start generating secure, customizable data.”
+     - CTA Button: “Get Started.”
+
+10. **Footer:**
+    - **Visuals:**
+      - Minimalistic, centered footer with links and social icons.
+    - **Content:**
+      - Links: About, Privacy Policy, Terms, Blog.
+      - Copyright notice.
+
+### **Visual and Styling Notes:**
+1. Typography: Use clean, sans-serif fonts with bold headlines and light body text.
+2. Colors: Blue gradients with white and gray accents, inspired by the ArcTecFox logo.
+3. Animations: Smooth scrolling, hover effects for CTAs, and subtle motion graphics.
+4. White Space: Prioritize readability and simplicity.
+5. Imagery: Use abstract illustrations or product mockups for visual balance.
+
+---
+
+### **Technical Updates**
+
+1. **HTML and CSS:**
+   - Update `index.html` to reflect the new structure.
+   - Update `styles.css` with:
+     - The ArcTecFox branding (colors, fonts, hover effects).
+     - Responsive design for mobile and desktop.
+
+2. **Static Assets:**
+   - Use `logo.png` for the ArcTecFox logo.
+   - Add placeholder images for:
+     - Synthetic data visuals (e.g., `feature-data-1.png`, `feature-data-2.png`).
+     - Dashboard illustrations.
+
+3. **Interactive Features:**
+   - Include placeholders for future interactive synthetic data visualizations.
+
+4. **Sign-Up Backend:**
+   - Add a `/signup` endpoint to collect email addresses and store them in an SQLite database.
+   - Prevent duplicate sign-ups and return success or error messages.
+
+5. **Deployment and Testing:**
+   - Test the page locally to ensure all elements work correctly.
+   - Deploy the project to Replit and provide the external URL for review.
+
+---
+
+### **Deliverables**
+1. Updated `index.html` and `styles.css` files.
+2. Updated `main.py` with the `/signup` endpoint.
+3. Folder structure:
