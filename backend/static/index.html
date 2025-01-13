@@ -18,12 +18,27 @@
     <!-- Header with Logo -->
     <header class="bg-white shadow-md py-4 px-6 fixed w-full z-10">
         <div class="max-w-6xl mx-auto flex items-center justify-between">
-            <img src="/static/logo.png" alt="ArcTecFox Logo" class="h-10">
             <nav>
                 <a href="#features" class="text-gray-800 hover:text-blue-600 px-4">Features</a>
                 <a href="#testimonials" class="text-gray-800 hover:text-blue-600 px-4">Testimonials</a>
                 <a href="#cta" class="text-gray-800 hover:text-blue-600 px-4">Get Started</a>
             </nav>
+            <div class="flex items-center gap-4">
+                <div class="relative group">
+                    <button class="flex items-center text-gray-800 hover:text-blue-600">
+                        <span class="mr-2">Account</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 hidden group-hover:block">
+                        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Settings</a>
+                        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Profile</a>
+                        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-50">Sign Out</a>
+                    </div>
+                </div>
+                <img src="/static/logo.png" alt="ArcTecFox Logo" class="h-10">
+            </div>
         </div>
     </header>
 
