@@ -1,5 +1,5 @@
 run = "cd backend && uvicorn app.main:app --host 0.0.0.0 --port 3000"
-modules = ["python-3.11"]
+modules = ["nodejs-20", "postgresql-16", "python-3.11"]
 
 [[ports]]
 localPort = 3000
