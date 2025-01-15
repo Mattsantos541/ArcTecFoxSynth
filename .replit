@@ -12,7 +12,7 @@ run = ["sh", "-c", "pip install -r backend/requirements.txt"]
 channel = "stable-24_05"
 
 [workflows]
-runButton = "Project"
+runButton = "FastAPI Server"
 
 [[workflows.workflow]]
 name = "Project"
