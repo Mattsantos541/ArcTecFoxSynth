@@ -1,226 +1,104 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ArcTecFox - Synthetic Data Made Easy</title>
-        <link href="/static/styles/output.css" rel="stylesheet" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArcTecFox - Synthetic Data Made Easy</title>
+    <link href="/static/styles/output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
 
-    <body class="bg-white text-gray-800 leading-relaxed">
-        <!-- Header -->
-        <header class="bg-white shadow-md py-4 px-6 fixed w-full z-10">
-            <div class="max-w-6xl mx-auto flex items-center justify-between">
-                <img src="/static/logo.png" alt="ArcTecFox Logo" class="h-10" />
-                <nav>
-                    <a
-                        href="#features"
-                        class="text-gray-800 hover:text-blue-600 px-4"
-                        >Features</a
-                    >
-                    <a
-                        href="#how-it-works"
-                        class="text-gray-800 hover:text-blue-600 px-4"
-                        >How It Works</a
-                    >
-                    <a
-                        href="#cta"
-                        class="text-gray-800 hover:text-blue-600 px-4"
-                        >Get Started</a
-                    >
-                </nav>
-            </div>
-        </header>
+<body class="bg-white text-gray-800 leading-relaxed">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4 px-6 fixed w-full z-10">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <img src="/static/logo.png" alt="ArcTecFox Logo" class="h-10" />
+            <nav>
+                <a href="#features" class="text-gray-800 hover:text-blue-600 px-4">Features</a>
+                <a href="#how-it-works" class="text-gray-800 hover:text-blue-600 px-4">How It Works</a>
+                <a href="#cta" class="text-gray-800 hover:text-blue-600 px-4">Get Started</a>
+            </nav>
+        </div>
+    </header>
 
-        <!-- Hero Section -->
-        <section
-            class="min-h-screen text-white flex items-center px-4"
-            style="background: url('/static/hero-bg.jpg') center/cover, linear-gradient(to bottom right, #1a202c, #2c5282);"
-        >
-            <div class="max-w-3xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl font-bold mb-6">
-                    Revolutionize Your Data Workflow with ArcTecFox
-                </h1>
-                <p class="text-lg mb-6">
-                    Simplify synthetic data generation and analysis with our streamlined, user-friendly platform. Unlock the full potential of your data today.
-                </p>
-                <button
-                    class="bg-blue-500 hover:bg-blue-400 text-white py-3 px-6 rounded shadow-md text-lg"
-                >
-                    Try ArcTecFox
-                </button>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center text-center text-white px-4"
+        style="background: url('/static/hero-bg.jpg') center/cover, linear-gradient(to bottom right, #1a202c, #2c5282);">
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Unlock the Power of Synthetic Data with ArcTecFox</h1>
+            <p class="text-lg mb-8">Generate secure, customizable, and actionable synthetic datasets in minutes.</p>
+            <button class="bg-blue-500 hover:bg-blue-400 text-white py-3 px-6 rounded shadow-md text-lg">Try ArcTecFox</button>
+        </div>
+    </section>
 
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Custom Data Generation -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/data-generation-icon.svg" alt="Data Generation Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Custom Data Generation</h3>
+                    <p class="text-gray-600">Create synthetic datasets tailored to your needs with support for CSV, XLSX, and JSON formats.</p>
+                </div>
 
-        <!-- Features Section -->
-        <section id="features" class="py-20 bg-gray-50">
-            <div class="max-w-6xl mx-auto text-center">
-                <h2 class="text-3xl font-bold text-gray-800 mb-8">Features</h2>
-                <p class="text-lg text-gray-600 mb-12">
-                    Discover the powerful features of ArcTecFox, designed to simplify synthetic data generation and ensure security, flexibility, and actionable insights.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Custom Data Generation -->
-                    <div class="feature-card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">Custom Data Generation</h3>
-                        <p class="text-gray-600 mb-4">
-                            Create synthetic datasets tailored to your unique requirements. ArcTecFox offers flexibility, precision, and privacy-enhancing features to help you manage data generation effectively.
-                        </p>
-                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
-                            <li><strong>Highly Flexible Dataset Configuration:</strong> Customize columns, specify row counts, and handle mixed data types.</li>
-                            <li><strong>Preserve Data Relationships:</strong> Maintain correlations, distributions, and dependencies for meaningful analysis.</li>
-                            <li><strong>Support for Multiple Formats:</strong> Export datasets in CSV, XLSX, or JSON formats.</li>
-                        </ul>
-                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
-                            Custom Data Generation Screenshot Placeholder
-                        </div>
-                    </div>
+                <!-- Advanced Scorecard Comparison -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/scorecard-icon.svg" alt="Scorecard Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Advanced Scorecard Comparison</h3>
+                    <p class="text-gray-600">Analyze metrics like mean, variance, and correlations to validate data accuracy.</p>
+                </div>
 
-                    <!-- Advanced Scorecard Comparison -->
-                    <div class="feature-card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Scorecard Comparison</h3>
-                        <p class="text-gray-600 mb-4">
-                            Dive deep into advanced dataset comparisons with ArcTecFox's Scorecard Comparison. Analyze key metrics, such as:
-                        </p>
-                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
-                            <li><strong>Statistical Metrics:</strong> Mean, variance, standard deviation, and distributions.</li>
-                            <li><strong>Correlation Analysis:</strong> Compare relationships between variables with heatmaps.</li>
-                            <li><strong>Data Integrity Checks:</strong> Identify outliers, validate proportions, and ensure consistency.</li>
-                            <li><strong>Visual Insights:</strong> Explore side-by-side charts and interactive visualizations.</li>
-                        </ul>
-                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
-                            Advanced Scorecard Comparison Screenshot Placeholder
-                        </div>
-                    </div>
-
-                    <!-- Privacy Enhancement -->
-                    <div class="feature-card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Privacy Enhancements</h3>
-                        <p class="text-gray-600 mb-4">
-                            Protect sensitive data with cutting-edge privacy techniques, ensuring secure synthetic data generation.
-                        </p>
-                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
-                            <li><strong>Anonymization:</strong> Replace sensitive data with synthetic equivalents while preserving statistical accuracy.</li>
-                            <li><strong>Regulatory Compliance:</strong> Meet GDPR, HIPAA, and other privacy standards with confidence.</li>
-                            <li><strong>Minimized Re-identification Risks:</strong> Protect against re-identification with techniques like differential privacy.</li>
-                            <li><strong>Encrypted Processing:</strong> Ensure your data is secure during processing with advanced encryption methods.</li>
-                            <li><strong>Temporary Storage:</strong> Uploaded data is securely erased after synthetic data generation.</li>
-                        </ul>
-                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
-                            Privacy Enhancement Icon Placeholder
-                        </div>
-                    </div>
+                <!-- Privacy Enhancement -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/privacy-icon.svg" alt="Privacy Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Privacy Enhancements</h3>
+                    <p class="text-gray-600">Ensure compliance with GDPR and HIPAA while safeguarding sensitive data.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/upload-icon.svg" alt="Upload Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Upload Your Dataset</h3>
+                    <p class="text-gray-600">Upload data in CSV, XLSX, or JSON format. Your data is processed securely.</p>
+                </div>
 
-        <!-- How It Works Section -->
-        <section id="how-it-works" class="py-20 bg-white">
-            <div class="max-w-6xl mx-auto text-center">
-                <h2 class="text-3xl font-bold text-gray-800 mb-8">
-                    How It Works
-                </h2>
-                <p class="text-lg text-gray-600 mb-12">
-                    Getting started with ArcTecFox is simple. Follow these three
-                    steps to generate synthetic datasets in minutes.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Step 1 -->
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                        <img
-                            src="/static/icons/upload-icon.svg"
-                            alt="Upload Icon"
-                            class="h-12 w-12 mx-auto mb-4"
-                        />
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Upload Your Dataset
-                        </h3>
-                        <p class="text-gray-600">
-                            Start by uploading your dataset in CSV, XLSX, or
-                            JSON format. Your data is processed securely.
-                        </p>
-                    </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/customize-icon.svg" alt="Customize Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Customize Your Output</h3>
+                    <p class="text-gray-600">Select columns, set row counts, and tailor your synthetic data to fit your needs.</p>
+                </div>
 
-                    <!-- Step 2 -->
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                        <img
-                            src="/static/icons/customize-icon.svg"
-                            alt="Customize Icon"
-                            class="h-12 w-12 mx-auto mb-4"
-                        />
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Customize Your Output
-                        </h3>
-                        <p class="text-gray-600">
-                            Select columns, specify the number of rows, and
-                            configure your synthetic data settings.
-                        </p>
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                        <img
-                            src="/static/icons/download-icon.svg"
-                            alt="Download Icon"
-                            class="h-12 w-12 mx-auto mb-4"
-                        />
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Generate & Download
-                        </h3>
-                        <p class="text-gray-600">
-                            Generate your synthetic dataset and download it in
-                            CSV, XLSX, or JSON format within minutes.
-                        </p>
-                    </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/icons/download-icon.svg" alt="Download Icon" class="h-12 w-12 mx-auto mb-4" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Generate & Download</h3>
+                    <p class="text-gray-600">Generate your dataset and download it instantly in your preferred format.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Call-to-Action Section -->
-        <section id="cta" class="py-20 bg-blue-600 text-white text-center">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl font-bold mb-4">Try ArcTecFox Today</h2>
-                <p class="text-lg mb-8">
-                    Experience the future of synthetic data generation. Simplify
-                    your workflow and gain actionable insights in minutes.
-                </p>
-                <button
-                    class="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-md text-lg font-bold hover:bg-gray-200"
-                >
-                    Get Started Now
-                </button>
-            </div>
-        </section>
+    <!-- Call-to-Action Section -->
+    <section id="cta" class="py-20 bg-blue-600 text-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Experience ArcTecFox Today</h2>
+            <p class="text-lg mb-8">Streamline your data generation process and gain insights faster.</p>
+            <button class="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-md text-lg font-bold hover:bg-gray-200">Get Started Now</button>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="bg-gray-900 text-white py-12 text-center">
-            <img
-                src="/static/logo.png"
-                alt="ArcTecFox Logo"
-                class="h-10 mx-auto mb-6"
-            />
-            <div class="content-wrapper">
-                <div class="footer-links mb-6">
-                    <a href="#" class="text-white hover:text-blue-400 mx-3"
-                        >Privacy Policy</a
-                    >
-                    <a href="#" class="text-white hover:text-blue-400 mx-3"
-                        >Terms of Service</a
-                    >
-                    <a href="#" class="text-white hover:text-blue-400 mx-3"
-                        >Contact Us</a
-                    >
-                </div>
-                <p class="text-sm text-gray-400">
-                    © 2025 ArcTecFox. All Rights Reserved.
-                </p>
-            </div>
-        </footer>
-    </body>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 text-center">
+        <img src="/static/logo.png" alt="ArcTecFox Logo" class="h-10 mx-auto mb-6" />
+        <p class="text-sm text-gray-400">© 2025 ArcTecFox. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
