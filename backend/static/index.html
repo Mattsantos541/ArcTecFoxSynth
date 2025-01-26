@@ -38,16 +38,15 @@
 
         <!-- Hero Section -->
         <section
-            class="min-h-screen bg-gradient-to-br from-gray-900 to-blue-600 text-white flex items-center px-4"
+            class="min-h-screen text-white flex items-center px-4"
+            style="background: url('/static/hero-bg.jpg') center/cover, linear-gradient(to bottom right, #1a202c, #2c5282);"
         >
             <div class="max-w-3xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6">
                     Revolutionize Your Data Workflow with ArcTecFox
                 </h1>
                 <p class="text-lg mb-6">
-                    Simplify synthetic data generation and analysis with our
-                    streamlined, user-friendly platform. Unlock the full
-                    potential of your data today.
+                    Simplify synthetic data generation and analysis with our streamlined, user-friendly platform. Unlock the full potential of your data today.
                 </p>
                 <button
                     class="bg-blue-500 hover:bg-blue-400 text-white py-3 px-6 rounded shadow-md text-lg"
@@ -57,43 +56,69 @@
             </div>
         </section>
 
+
         <!-- Features Section -->
         <section id="features" class="py-20 bg-gray-50">
             <div class="max-w-6xl mx-auto text-center">
                 <h2 class="text-3xl font-bold text-gray-800 mb-8">Features</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <p class="text-lg text-gray-600 mb-12">
+                    Discover the powerful features of ArcTecFox, designed to simplify synthetic data generation and ensure security, flexibility, and actionable insights.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Custom Data Generation -->
                     <div class="feature-card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">
-                            Custom Data Generation
-                        </h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Custom Data Generation</h3>
                         <p class="text-gray-600 mb-4">
-                            Generate synthetic datasets tailored to your needs.
-                            Customize columns, rows, and outputs effortlessly.
+                            Create synthetic datasets tailored to your unique requirements. ArcTecFox offers flexibility, precision, and privacy-enhancing features to help you manage data generation effectively.
                         </p>
-                        <div
-                            class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400"
-                        >
-                            Data Generation Page Screenshot Placeholder
+                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
+                            <li><strong>Highly Flexible Dataset Configuration:</strong> Customize columns, specify row counts, and handle mixed data types.</li>
+                            <li><strong>Preserve Data Relationships:</strong> Maintain correlations, distributions, and dependencies for meaningful analysis.</li>
+                            <li><strong>Support for Multiple Formats:</strong> Export datasets in CSV, XLSX, or JSON formats.</li>
+                        </ul>
+                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
+                            Custom Data Generation Screenshot Placeholder
                         </div>
                     </div>
 
+                    <!-- Advanced Scorecard Comparison -->
                     <div class="feature-card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">
-                            Scorecard Comparison
-                        </h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Scorecard Comparison</h3>
                         <p class="text-gray-600 mb-4">
-                            Analyze and compare key metrics like mean, variance,
-                            and correlations with interactive visuals.
+                            Dive deep into advanced dataset comparisons with ArcTecFox's Scorecard Comparison. Analyze key metrics, such as:
                         </p>
-                        <div
-                            class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400"
-                        >
-                            Scorecard Comparison Screenshot Placeholder
+                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
+                            <li><strong>Statistical Metrics:</strong> Mean, variance, standard deviation, and distributions.</li>
+                            <li><strong>Correlation Analysis:</strong> Compare relationships between variables with heatmaps.</li>
+                            <li><strong>Data Integrity Checks:</strong> Identify outliers, validate proportions, and ensure consistency.</li>
+                            <li><strong>Visual Insights:</strong> Explore side-by-side charts and interactive visualizations.</li>
+                        </ul>
+                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
+                            Advanced Scorecard Comparison Screenshot Placeholder
+                        </div>
+                    </div>
+
+                    <!-- Privacy Enhancement -->
+                    <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Privacy Enhancements</h3>
+                        <p class="text-gray-600 mb-4">
+                            Protect sensitive data with cutting-edge privacy techniques, ensuring secure synthetic data generation.
+                        </p>
+                        <ul class="text-left text-gray-600 mb-4 list-disc ml-6">
+                            <li><strong>Anonymization:</strong> Replace sensitive data with synthetic equivalents while preserving statistical accuracy.</li>
+                            <li><strong>Regulatory Compliance:</strong> Meet GDPR, HIPAA, and other privacy standards with confidence.</li>
+                            <li><strong>Minimized Re-identification Risks:</strong> Protect against re-identification with techniques like differential privacy.</li>
+                            <li><strong>Encrypted Processing:</strong> Ensure your data is secure during processing with advanced encryption methods.</li>
+                            <li><strong>Temporary Storage:</strong> Uploaded data is securely erased after synthetic data generation.</li>
+                        </ul>
+                        <div class="bg-gray-800 h-48 w-full rounded-lg shadow-lg flex items-center justify-center text-gray-400">
+                            Privacy Enhancement Icon Placeholder
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- How It Works Section -->
         <section id="how-it-works" class="py-20 bg-white">
